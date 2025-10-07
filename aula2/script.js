@@ -1,27 +1,16 @@
-let number = 10;
-let text = "Olá,Mundo!";
-let logico = true;
-
-if(number > 5) {
-    console.log('O número é maior que 5');
-}
-else {
-    console.log('O número é menor ou igual a 5');
+//for of
+let lista2 = [1,2,3,4,5]
+let nome = "fabio"
+for (const caracter of nome) {
+    console.log(caracter)
 }
 
-for (let contador =1;contador <= 5;contador++) {
-    console.log("contador:" + contador)
-}
-while(number > 0) {
-    console.log("Número atual: " + number)
-    number = number - 1;
+//for in
+let user = {
+    name: "fabio",
+    profission: "professor"
 }
 
-function somar(a, b) {
-    return a + b;
-}
+console.log(JSON.stringify(user))
 
-let resultado = somar(3,7)
-console.log("Resultado da soma:" + resultado)
-
-
+let 
