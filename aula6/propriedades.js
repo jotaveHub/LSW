@@ -20,3 +20,7 @@ for (const props in pessoa) {
 let frase = "ADS é nota 5 no enade"
 const indice = frase.indexOf(5,3)
 const existe = frase.includes("Enade")
+const palavra = frase.slice(-6,-3)
+console.log(palavra)
+console.log(frase[indice])
+console.log(existe)
