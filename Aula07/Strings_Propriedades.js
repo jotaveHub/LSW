@@ -24,3 +24,4 @@ const palavra = frase.slice(-6,-3)
 console.log(palavra)
 console.log(frase[indice])
 console.log(existe)
+
